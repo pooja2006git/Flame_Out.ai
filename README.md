@@ -2,7 +2,7 @@
 # 🔥 Flame Out.AI – Interactive Vertex-Cover Puzzle Game  
 ### A strategy game powered by graph theory + AI
 
-<img src=flameout dashboard.jpeg width="500"/>
+<img src="flameout dashboard.jpeg" width="500"/>
 
 ---
 
