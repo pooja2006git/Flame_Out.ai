@@ -1,11 +1,8 @@
-<div align="center">
 
 # 🔥 Flame Out.AI – Interactive Vertex-Cover Puzzle Game  
 ### A strategy game powered by graph theory + AI
 
-<img src="C:\Users\91807\Downloads\WhatsApp Image 2025-11-10 at 2.26.52 PM.jpeg" width="500"/>
-
-</div>
+<img src="(ADD YOUR IMAGE LINK HERE)" width="500"/>
 
 ---
 
@@ -65,4 +62,5 @@ Every move changes the graph. Every choice matters.
 ---
 
 ## 📂 Project Structure
+
 
