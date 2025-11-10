@@ -4,7 +4,6 @@
 
 <img src="flameout dashboard.jpeg"/>
 
-
 ## 🧠 What is Flame Out.AI?
 
 **Flame Out.AI** is an interactive puzzle game based on the *Vertex Cover Problem* — a famous problem from Graph Theory and AI.
@@ -13,19 +12,35 @@ Your objective:
 👉 Identify the minimum number of vertices required to disable all fire-nodes (edges).  
 Every move changes the graph. Every choice matters.
 
----
 
-## 🎮 How to Play
+## 🕹 How to Play
 
-| Action | Meaning |
-|--------|---------|
-| ✅ Click a node | Select / unselect a vertex |
-| 🔥 Connected red edges | Active fire paths |
-| 🧊 Goal | Turn off all fire paths using as few nodes as possible |
+1. You will see a graph — mountains are **circles (nodes)** and fire paths are **lines (edges)**.
+2. Click on any mountain (node) to place a **water tank** on it.
+3. When you place a tank:
+   - All fire paths connected to that mountain get extinguished.
+4. Your goal is to **cover every fire path** by placing tanks on the *minimum* number of mountains.
+5. When every path is covered, click **"Check Solution"** to see the result.
 
-🟡 *Think strategically — selecting fewer nodes gives you a higher score!*
+> Think of it like this:  
+> If a fire path touches *at least one* mountain with a water tank, that path cannot burn anymore.
 
----
+
+### Visual Explanation (Simple Version)
+
+| You do this | Result |
+|-------------|--------|
+| 🟢 Click a mountain | ✅ Water tank placed |
+| 🔥 Fire path remains red | ❌ Not covered yet |
+| 🔵 Path turns grey | ✅ Fire path covered |
+| All paths grey | 🎉 You win! You found a vertex cover |
+
+The challenge is:
+✔ Not just to stop the fire  
+❗ But to stop the fire using the **fewest possible tanks**
+
+> 🟡 *Think strategically — selecting fewer nodes gives you a higher score!*
+
 
 ## 🏆 Game Rules
 
@@ -35,19 +50,17 @@ Every move changes the graph. Every choice matters.
 4. Every move counts — choose wisely!
 
 > This is a variation of an NP-Hard problem…
-> …but trust your brain — not brute force 😁
+> — not brute force �
 
----
 
 ## ✨ Features
 
-- 🎯 Interactive graph rendering
-- 🚀 Fast frontend with **React + Vite + TailwindCSS**
-- 🌐 Backend API powered by **Django + PostgreSQL**
-- 📊 Stores game attempt history
-- 🧠 Based on real AI/graph-theory algorithm design
+-  Interactive graph rendering
+-  Fast frontend with **React + Vite + TailwindCSS**
+-  Backend API powered by **Django + PostgreSQL**
+-  Stores game attempt history
+-  Based on real AI/graph-theory algorithm design
 
----
 
 ## 🛠 Tech Stack
 
@@ -58,8 +71,6 @@ Every move changes the graph. Every choice matters.
 | Database / Auth | Supabase |
 | Deployment | Netlify (Frontend) + Render / Railway (Backend) |
 
----
 
-## 📂 Project Structure
 
 
