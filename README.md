@@ -4,7 +4,6 @@
 
 <img src="flameout dashboard.jpeg"/>
 
----
 
 ## 🧠 What is Flame Out.AI?
 
